@@ -9,6 +9,7 @@ This Project aims at automating the task of backup. The project , will itself ad
 
 Once you setup the repository in both GitHub and GIT, you can run the following command to automate the backup
 
+command- chmod o+x Git*
 command- crontab -u root crontab
 
 
