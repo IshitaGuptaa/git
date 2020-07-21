@@ -7,9 +7,11 @@ n3=random.random()
 
 n4=n1*n2*n3
 
+os.system("rm -f /root/Desktop/workspace/GithubPush/a")
 
-os.system("rm -rf a")
-os.system("git add .")
 
-os.system("git commit -m {}".format(n4))
-os.system("git push")
+os.system("git --git-dir=/root/Desktop/workspace/GithubPush/.git --work-tree=/root/Desktop/workspace/GithubPush/ add .")
+
+os.system("git --git-dir=/root/Desktop/workspace/GithubPush/.git --work-tree=/root/Desktop/workspace/GithubPush/ commit -m {}".format(n4))
+os.system("git --git-dir=/root/Desktop/workspace/GithubPush/.git --work-tree=/root/Desktop/workspace/GithubPush/ push")
+
