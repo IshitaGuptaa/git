@@ -1,0 +1,3 @@
+*/30 * * * * /root/Desktop/workspace/GithubPush/Gitadd.py
+*/30 * * * * sleep 15; /root/Desktop/workspace/GithubPush/Gitrem.py
+
