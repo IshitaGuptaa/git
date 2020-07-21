@@ -1,10 +1,10 @@
 DATA BACKUP project
 
-Note - I have rhel for this project
+Note - I have used RedHat Enterprise Linux for this project
 
 We know how lazy we can be when it comes to creating proper backup. Using Github is a good solution, but let's be honest how many of us actually use it properly. 
 
-This Project aims at automating the task of backup. The project , will itself add the newly created files to the staging area. It automatically commits it and automatically pushes it to the repository.
+This Project aims at automating the task of backup. The project itself adds the newly created files to the staging area. It automatically commits it and automatically pushes it to the GitHub repository.
 
 
 Once you setup the repository in both GitHub and GIT, you can run the following command to automate the backup
