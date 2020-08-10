@@ -14,5 +14,5 @@ os.system("touch /root/Desktop/workspace/GithubPush/a")
 os.system("git --git-dir=/root/Desktop/workspace/GithubPush/.git --work-tree=/root/Desktop/workspace/GithubPush/ add .")
 
 os.system("git --git-dir=/root/Desktop/workspace/GithubPush/.git --work-tree=/root/Desktop/workspace/GithubPush/ commit -m {}".format(n4)) 
-os.system("git --git-dir=/root/Desktop/workspace/GithubPush/.git --work-tree=/root/Desktop/workspace/GithubPush/ push")
+os.system("git --git-dir=/root/Desktop/workspace/GithubPush/.git --work-tree=/root/Desktop/workspace/GithubPush/ push git HEAD:master")
 
